@@ -11,8 +11,5 @@ sudo apt-get install golang
 export GOROOT=/usr/lib/go
 export GOBIN=/usr/bin/go
 
-mkdir src
-cd src
-
 # Install Mux. This should be run in workspace/src
 go get -u github.com/gorilla/mux
